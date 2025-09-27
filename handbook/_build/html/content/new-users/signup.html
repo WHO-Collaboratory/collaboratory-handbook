@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css?v=6644e6bb" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -389,11 +389,11 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#signing-up-for-the-first-time">Signing up for the first time</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mfa-multi-factor-authentication">MFA (Multi-factor authentication)</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#set-up-mfa">Set Up MFA</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#signing-up-for-the-first-time">Signing up for the first time</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#set-up-mfa-multi-factor-authentication">Set up MFA (Multi-factor authentication)</a></li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#help">Help</a></li>
 </ul>
             </nav>
         </div>
@@ -409,26 +409,48 @@ document.write(`
 <h1>New User Sign-up<a class="headerlink" href="#new-user-sign-up" title="Link to this heading">#</a></h1>
 <section id="signing-up-for-the-first-time">
 <h2>Signing up for the first time<a class="headerlink" href="#signing-up-for-the-first-time" title="Link to this heading">#</a></h2>
-<p>Sign up for the Collaboratory here: <a class="reference external" href="https://collaboratory.who.int/">collaboratory.who.int</a></p>
-<a class="reference internal image-reference" href="../../_images/collab-signup.png"><img alt="log in web page asking for username and password" class="align-center" src="../../_images/collab-signup.png" style="width: 350px;" />
+<p><strong>Step 1: Navigate to the Collaboratory website:</strong> <a class="reference external" href="https://collaboratory.who.int/">collaboratory.who.int</a></p>
+<p><strong>Step 2: Sign up for the Collaboratory:</strong> On the sign-in form, go to <code class="docutils literal notranslate"><span class="pre">Sign</span> <span class="pre">up</span> <span class="pre">now</span></code>.</p>
+<a class="reference internal image-reference" href="../../_images/collab-homepage-arrow.png"><img alt="log in web page asking for username and password" class="align-center" src="../../_images/collab-homepage-arrow.png" style="width: 350px;" />
+</a>
+<br>
+<p><strong>Step 3: Complete the form:</strong> Enter in all the requested information.</p>
+<br>
+<a class="reference internal image-reference" href="../../_images/collab-long-signup-page.png"><img alt="log in web page asking for full account information" class="align-center" src="../../_images/collab-long-signup-page.png" style="width: 400px;" />
+</a>
+<br>
+<p>Then click the <code class="docutils literal notranslate"><span class="pre">Create</span></code> button.</p>
+<section id="set-up-mfa-multi-factor-authentication">
+<h3>Set up MFA (Multi-factor authentication)<a class="headerlink" href="#set-up-mfa-multi-factor-authentication" title="Link to this heading">#</a></h3>
+<p>After the successful submission of all the requested information on the sign-up page, you will need to provide a code which you can obtain from an Authenticator app.
+On-screen instructions are shown to guide you through the activation process and obtaining a code from an Authenticator app.</p>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>For security reasons, users are required to set up MFA.<br />
+Note:  2FA (Two-factor authentication) can also be referred to as MFA (Multi-factor Authentication).</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can use either the <a class="reference external" href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&amp;amp;hl=en_US&amp;amp;pli=1"><strong>Google Authenticator</strong></a> or <a class="reference external" href="https://support.microsoft.com/en-us/account-billing/download-microsoft-authenticator-351498fc-850a-45da-b7b6-27e523b8702a"><strong>Microsoft Authenticator</strong></a> <strong>mobile app</strong>. If you do not have it installed on your phone, you must do that first.</p>
+</div>
+<p><strong>Step 4: Open the Authenticator mobile app:</strong> After you sign up, you will see a window with a QR code.</p>
+<p>Log into your Authenticator App, and then click button to add new account by scanning the QR code displayed on the screen. This links your mobile app to your Collaboratory account.</p>
+<a class="reference internal image-reference" href="../../_images/authenticator-long.png"><img alt="screenshot of a QR code" class="align-center" src="../../_images/authenticator-long.png" style="width: 400px;" />
+</a>
+<br>
+<p><strong>Step 5: Enter Verification Code</strong>: Type in the 6-digit code generated by your Authenticator app into the Collaboratory verification fields.<br />
+Note:  this code expires in less than 10 seconds.</p>
+<a class="reference internal image-reference" href="../../_images/collab-enter-authenticator-code.png"><img alt="window to enter a QR code" class="align-center" src="../../_images/collab-enter-authenticator-code.png" style="width: 400px;" />
+</a>
+<br>
+<p><strong>Step 6: Collaboratory home page:</strong> You will see this Collaboratory page after successfully creating an account and logging in.</p>
+<a class="reference internal image-reference" href="../../_images/collab-home-view-afterlogin.png"><img alt="Collaboratory home page" class="align-center" src="../../_images/collab-home-view-afterlogin.png" style="width: 700px;" />
 </a>
 </section>
-<section id="mfa-multi-factor-authentication">
-<h2>MFA (Multi-factor authentication)<a class="headerlink" href="#mfa-multi-factor-authentication" title="Link to this heading">#</a></h2>
-<p>Note:  2FA (Two-factor authentication) can also be referred to as MFA (Multi-factor Authentication)</p>
-<p>After successful submission of your username &amp; password, you will need to provide a code which you can obtain from an Authenticator app.
-On-screen instructions are shown to guide you through the activation process and process of obtaining Authenticator app and then from it a code.</p>
-<a class="reference internal image-reference" href="../../_images/authenticator.jpg"><img alt="screenshot of a QR code" class="align-center" src="../../_images/authenticator.jpg" style="width: 1000px;" />
-</a>
-<section id="set-up-mfa">
-<h3>Set Up MFA<a class="headerlink" href="#set-up-mfa" title="Link to this heading">#</a></h3>
-<ul class="simple">
-<li><p><strong>Install an Authenticator App</strong>: Ensure you have either Google Authenticator or Microsoft Authenticator (your choice) installed on your mobile device.</p></li>
-<li><p><strong>Scan QR Code</strong>: On the Collaboratory website, use your chosen Authenticator app to scan the QR code displayed on the screen. This links your app to your Collaboratory account.</p></li>
-<li><p><strong>Enter Verification Code</strong>: Type in the 6-digit code generated by your Authenticator app into the Collaboratory verification fields. (Please note that this code expires in less than 10 seconds).</p></li>
-</ul>
+</section>
+<section id="help">
+<h2>Help<a class="headerlink" href="#help" title="Link to this heading">#</a></h2>
 <p>Please <a class="reference internal" href="../contact_us.html#contact-us"><span class="std std-ref">Contact Us</span></a> if you experience any difficulties logging into the Collaboratory discussion forum.</p>
-</section>
 </section>
 </section>
 
@@ -496,11 +518,11 @@ On-screen instructions are shown to guide you through the activation process and
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#signing-up-for-the-first-time">Signing up for the first time</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mfa-multi-factor-authentication">MFA (Multi-factor authentication)</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#set-up-mfa">Set Up MFA</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#signing-up-for-the-first-time">Signing up for the first time</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#set-up-mfa-multi-factor-authentication">Set up MFA (Multi-factor authentication)</a></li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#help">Help</a></li>
 </ul>
   </nav></div>
 
