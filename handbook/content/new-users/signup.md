@@ -14,7 +14,7 @@
 
 <br>
 
-**Step 3: Complete the form:** Enter in all the requested information.
+**Step 3: Complete the form:** Enter in all the requested information and then select the `Create` button.
 
 <br>
 
@@ -23,10 +23,6 @@
 :width: 400px
 :align: center
 ```
-
-<br>
-
-Then click the `Create` button.
 
 
 ### Set up MFA (Multi-factor authentication)
@@ -70,7 +66,7 @@ Note:  this code expires in less than 10 seconds.
 
 ```{image} ../../static/screenshots/collab-home-view-afterlogin.png
 :alt: Collaboratory home page
-:width: 700px
+:width: 800px
 :align: center
 ```
 

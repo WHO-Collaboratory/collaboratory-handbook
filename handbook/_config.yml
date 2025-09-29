@@ -30,3 +30,9 @@ repository:
 html:
   use_issues_button: true
   use_repository_button: true
+
+# Add Google Analytics to your book
+# See https://jupyterbook.org/customize/config.html#add-google-analytics
+html:
+  analytics:
+    google_analytics_id: G-NXL2ZMNVX3
